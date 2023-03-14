@@ -19,7 +19,7 @@ class DrawShape():
   def draw_shapes(sides):
     t = Turtle()
     s = Screen()
-    colours = ['red', 'green', 'blue', 'green', 'orange', 'black', 'lightblue', 'purple']
+    colours = ['red', 'blue', 'green', 'orange', 'black', 'lightblue', 'purple']
     t.color(random.choice(colours))
     for _ in range(sides):
       angle = (360 / sides)
