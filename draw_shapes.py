@@ -4,6 +4,9 @@
 #
 # Comments: Contains attributed and methods to draw shapes.
 #
+# version: 1.1
+# version remarks: Removed the extra green color in colours list.
+#
 ######################################################################################
 
 from turtle import Turtle, Screen, speed
@@ -46,7 +49,7 @@ class DrawShape():
   def draw_circle():
     t = Turtle()
     s = Screen()
-    colours = ['red', 'green', 'blue', 'green', 'orange', 'black', 'lightblue', 'purple']
+    colours = ['red', 'green', 'blue', 'orange', 'black', 'lightblue', 'purple']
     t.color(random.choice(colours))
     t.circle(100)
 
@@ -56,7 +59,7 @@ class DrawShape():
   def draw_spiral(size_of_gap):
     t = Turtle()
     s = Screen()
-    colours = ['red', 'green', 'blue', 'green', 'orange', 'black', 'lightblue', 'purple']
+    colours = ['red', 'blue', 'green', 'orange', 'black', 'lightblue', 'purple']
 
     for _ in range(int(360 / size_of_gap)):
       t,speed('fastest')
