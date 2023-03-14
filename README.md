@@ -7,6 +7,6 @@ Last date uploaded to github: 23 August 2022
 
 
 Version 1.1
-Deleted extra green color in original colout list.
+Deleted extra green color in original colour list.
 
 Date version 1.1 was changed on githup: 14 March 2023
